@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "framing"
+version = "0.1.0"
+description = ""
+authors = ["EntilZha <me@pedro.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.40.2"
+omegaconf = "^2.3.0"
+typer = "^0.15.0"
+pillow = "^11.0.0"
+pydantic = "^2.10.3"
+ipycanvas = "^0.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
